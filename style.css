@@ -1,0 +1,26 @@
+* {
+    display: circle;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border-radius: 50%;
+    clip-path: circle(clock);
+}
+
+#clock {
+    color: #61dafb;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
